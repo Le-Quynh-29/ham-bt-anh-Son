@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra so nguyen</title>
+</head>
+<body>
+<script>
+let a = +prompt("nhap so bat ki");
+function checkSoNguyen() {
+    if (Number.isInteger(a)){
+        return true;
+    } else {
+        return false;
+    }
+}
+document.write(checkSoNguyen(a));
+</script>
+</body>
+</html>

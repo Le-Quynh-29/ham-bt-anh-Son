@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GTLN GTNN</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    for (let i = 0; i < 5; i++) {
+        let x =  +prompt("nhap phan tu thu" + i);
+        arr.push(x);
+    }
+    function checkMax() {
+        let max =  arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > max){
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    document.write("Max :" + checkMax() + "<br>");
+    function checkMin() {
+        let min = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+    document.write("Min:" +checkMin());
+</script>
+</body>
+</html>

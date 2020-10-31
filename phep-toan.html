@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cong-tru-nhan-chia</title>
+</head>
+<body>
+<script>
+    let a = +prompt("nhap so thu nhat");
+    let b = +prompt("nhap so thu 2");
+    function cong(a,b){
+        total = a + b;
+        return total;
+    }
+    document.write(cong(a,b)+ "<br>");
+    function tru(a,b){
+        total = a - b;
+        return total;
+    }
+    document.write(tru(a,b)+ "<br>");
+    function nhan(a,b){
+        total = a * b;
+        return total;
+    }
+    document.write(nhan(a,b)+ "<br>");
+    function chia(a,b){
+        total = a / b;
+        return total;
+    }
+    document.write(chia(a,b));
+</script>
+</body>
+</html>

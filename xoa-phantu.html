@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xoa phan tu trong mang</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    for (let i = 0; i < 5; i++) {
+        let x = prompt("phan tu thu:" + i);
+        arr.push(x);
+    }
+    document.write(arr + "<br>");
+    function deleteArr(){
+        arr.pop();
+        return arr;
+    }
+    document.write(deleteArr(arr));
+</script>
+</body>
+</html>

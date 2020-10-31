@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let strArray = [];
+    for (let i = 0; i < 10; i++) {
+        let arr = prompt("nhap phan tu thu" + i);
+        strArray.push(arr);
+    }
+    // function checkLap() {
+    //     let findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) != index);
+    //     return findDuplicates(strArray);
+    // }
+    // document.write(checkLap(strArray));
+    var value = arr[0];
+    var newArr = [];
+    function getItemDulicate(){
+        for (let i = 0; i < arr.length; i++) {
+            if(value ==arr[i]){
+                newArr.push(arr[i]);
+            }
+        }
+    }
+getItemDulicate(strArray);
+</script>
+</body>
+</html>
